@@ -1,6 +1,17 @@
 # EventHDR
  This is the implementation and dataset for [Learning To Reconstruct High Speed and High Dynamic Range Videos From Events](https://openaccess.thecvf.com/content/CVPR2021/papers/Zou_Learning_To_Reconstruct_High_Speed_and_High_Dynamic_Range_Videos_CVPR_2021_paper.pdf), CVPR 2021, by Yunhao Zou, Yinqiang Zheng, Tsuyoshi Takatani and Ying Fu (Continuously updating).
 
+## Introduction
+In this work, we present
+a convolutional recurrent neural network which takes a
+sequence of neighboring event frames to reconstruct high speed HDR videos. To facilitate the process of network learning, we design a novel optical system and collect a real-world dataset with paired high speed HDR videos and event streams.
+
+## Highlights
+* We propose a convolutional recurrent neural network
+for the reconstruction of high speed HDR videos from
+events. Our architecture carefully considers the alignment and temporal correlation for events.
+<img src="figs/overview.png" width="700px"/>
+
 ## Citation
 If you find this work useful for your research, please cite: 
 ```
