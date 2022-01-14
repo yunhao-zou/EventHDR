@@ -7,11 +7,13 @@ a convolutional recurrent neural network which takes a
 sequence of neighboring event frames to reconstruct high speed HDR videos. To facilitate the process of network learning, we design a novel optical system and collect a real-world dataset with paired high speed HDR videos and event streams.
 
 ## Highlights
-* We propose a convolutional recurrent neural network
-for the reconstruction of high speed HDR videos from
-events. Our architecture carefully considers the alignment and temporal correlation for events.
-<img src="figs/overview.png" width="700px"/>
+* We propose a convolutional recurrent neural network for the reconstruction of high speed HDR videos from events. Our architecture carefully considers the alignment and temporal correlation for events.
+<img src="figs/overview.png" width="400px"/>
 
+* To bridge the gap between simulated and real HDR videos, we design an elaborate system to synchronously capture paired high speed HDR video and the corresponding event stream.
+<img src="figs/system.png" width="400px"/>
+
+* 
 ## Citation
 If you find this work useful for your research, please cite: 
 ```
