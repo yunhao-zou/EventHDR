@@ -1,7 +1,7 @@
 # EventHDR
  This is the implementation and dataset for [Learning To Reconstruct High Speed and High Dynamic Range Videos From Events](https://openaccess.thecvf.com/content/CVPR2021/papers/Zou_Learning_To_Reconstruct_High_Speed_and_High_Dynamic_Range_Videos_CVPR_2021_paper.pdf), CVPR 2021, by Yunhao Zou, Yinqiang Zheng, Tsuyoshi Takatani and Ying Fu.
 
-**This repo will be continuously updating.**
+**This repo will be continuously updated.**
 ## Introduction
 In this work, we present
 a convolutional recurrent neural network which takes a
