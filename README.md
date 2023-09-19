@@ -6,24 +6,24 @@
 ## Introduction
 In this work, we present
 a convolutional recurrent neural network which takes a
-sequence of neighboring event frames to reconstruct high speed HDR videos. To facilitate the process of network learning, we design a novel optical system and collect a real-world dataset with paired high speed HDR videos and event streams.
+sequence of neighboring event frames to reconstruct high speed HDR videos. To facilitate the process of network learning, we design a novel optical system and collect a real-world dataset with paired high speed HDR videos and event streams
 
 ## Highlights
-* We propose a convolutional recurrent neural network for the reconstruction of high speed HDR videos from events. Our architecture carefully considers the alignment and temporal correlation for events.
+* We propose a convolutional recurrent neural network for the reconstruction of high speed HDR videos from events. Our architecture carefully considers the alignment and temporal correlation for events
 
 <img src="figs/overview.png" width="500px"/>
 
-* To bridge the gap between simulated and real HDR videos, we design an elaborate system to synchronously capture paired high speed HDR video and the corresponding event stream.
+* To bridge the gap between simulated and real HDR videos, we design an elaborate system to synchronously capture paired high speed HDR video and the corresponding event stream
 
 <img src="figs/system.png" width="500px"/>
 
-* We collect a real-world dataset with paired high speed HDR videos (high-bit) and event streams. Each frame of our HDR videos are merged from two precisely synchronized LDR frames.
+* We collect a real-world dataset with paired high speed HDR videos (high-bit) and event streams. Each frame of our HDR videos are merged from two precisely synchronized LDR frames
 
 <img src="figs/dataset.png" width="500px"/>
 
 ## Dataset
 * You can download our EventHDR dataset at [**[OneDrive]**](https://1drv.ms/f/s!AuA3qjJbfh9FjQa4GvHC_9Fn9UQm?e=jODI9N)
-* Both the training and testing data are stored in ```hdf5``` format, you can use ```h5py``` tool to read the data.
+* Both the training and testing data are stored in ```hdf5``` format, you can use ```h5py``` tool to read the data. To create a pytorch dataset, you can refer to [**```DynamicH5Dataset```**](https://github.com/TimoStoff/event_cnn_minimal/blob/master/data_loader/dataset.py)
 * We build our dataset based on the data structure of [**events_contrast_maximization**](https://github.com/TimoStoff/events_contrast_maximization/tree/master), and the structure tree is shown below
 ```
 EventHDR Dataset Structure Tree
@@ -61,7 +61,6 @@ EventHDR Dataset Structure Tree
 |   |   
 |   
 ```
-* To create a pytorch dataset, you can refer to [**```DynamicH5Dataset```**](https://github.com/TimoStoff/event_cnn_minimal/blob/master/data_loader/dataset.py)
 
 ## Citation
 If you find this work useful for your research, please cite: 
