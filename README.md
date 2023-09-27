@@ -81,7 +81,7 @@ BASICSR_EXT=True python setup.py develop
 ```
 bash test.sh
 ```
-* To obtain make a comparison video of the reconstruction, please run
+* To make a comparing video of the reconstruction, please run
 ```
 python mk_video.py
 ```
