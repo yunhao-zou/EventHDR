@@ -23,8 +23,8 @@ sequence of neighboring event frames to reconstruct high speed HDR videos. To fa
 <img src="figs/dataset.png" width="500px"/>
 
 ## Dataset
-* You can download our EventHDR dataset at [**OneDrive**](https://1drv.ms/f/s!AuA3qjJbfh9FjQa4GvHC_9Fn9UQm?e=jODI9N)
-* Both the training and testing data are stored in ```hdf5``` format, you can use ```h5py``` tool to read the data. To create a pytorch dataset, you can refer to [**DynamicH5Dataset**](https://github.com/TimoStoff/event_cnn_minimal/blob/master/data_loader/dataset.py)
+* Download our EventHDR dataset at [**OneDrive**](https://1drv.ms/f/s!AuA3qjJbfh9FjQa4GvHC_9Fn9UQm?e=jODI9N)
+* Both the training and testing data are stored in ```hdf5``` format, you can use ```h5py``` tool to read the data. To create a pytorch dataset, please refer to [**DynamicH5Dataset**](https://github.com/TimoStoff/event_cnn_minimal/blob/master/data_loader/dataset.py)
 * We build our dataset based on the data structure of [**events_contrast_maximization**](https://github.com/TimoStoff/events_contrast_maximization/tree/master), and the structure tree is shown below
 ```
 EventHDR Dataset Structure Tree
