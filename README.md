@@ -24,7 +24,7 @@ sequence of neighboring event frames to reconstruct high speed HDR videos. To fa
 
 ## Dataset
 * You can download our EventHDR dataset at [**[OneDrive]**](https://1drv.ms/f/s!AuA3qjJbfh9FjQa4GvHC_9Fn9UQm?e=jODI9N)
-* Both the training and testing data are stored in ```hdf5``` format, you can use ```h5py``` tool to read the data. To create a pytorch dataset, you can refer to [**```DynamicH5Dataset```**](https://github.com/TimoStoff/event_cnn_minimal/blob/master/data_loader/dataset.py)
+* Both the training and testing data are stored in ```hdf5``` format, you can use ```h5py``` tool to read the data. To create a pytorch dataset, you can refer to [**DynamicH5Dataset**](https://github.com/TimoStoff/event_cnn_minimal/blob/master/data_loader/dataset.py)
 * We build our dataset based on the data structure of [**events_contrast_maximization**](https://github.com/TimoStoff/events_contrast_maximization/tree/master), and the structure tree is shown below
 ```
 EventHDR Dataset Structure Tree
@@ -102,4 +102,4 @@ If you find this work useful for your research, please cite:
 If you have any problems, please feel free to contact me at zouyunhao@bit.edu.cn
 ##
 ## Acknowlegment
-The code borrows from [**```event_cnn_minimal```**](https://github.com/TimoStoff/event_cnn_minimal), [**```EDVR```**](https://github.com/xinntao/EDVR) and [**```E2VID```**](https://github.com/uzh-rpg/rpg_e2vid), please also cite their work
+The code borrows from [**event_cnn_minimal**](https://github.com/TimoStoff/event_cnn_minimal), [**EDVR**](https://github.com/xinntao/EDVR) and [**E2VID**](https://github.com/uzh-rpg/rpg_e2vid), please also cite their great work
