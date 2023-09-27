@@ -2,7 +2,7 @@
  This is the implementation and dataset for [Learning To Reconstruct High Speed and High Dynamic Range Videos From Events](https://openaccess.thecvf.com/content/CVPR2021/papers/Zou_Learning_To_Reconstruct_High_Speed_and_High_Dynamic_Range_Videos_CVPR_2021_paper.pdf), CVPR 2021, by Yunhao Zou, Yinqiang Zheng, Tsuyoshi Takatani and Ying Fu.
 
 ## News
-* 2023/09/19: Both the training and testing datasets are avalable at [**[OneDrive]**](https://1drv.ms/f/s!AuA3qjJbfh9FjQa4GvHC_9Fn9UQm?e=jODI9N)
+* 2023/09/19: Both the training and testing datasets are avalable at [**OneDrive**](https://1drv.ms/f/s!AuA3qjJbfh9FjQa4GvHC_9Fn9UQm?e=jODI9N)
 * 2023/09/27: Release the evaluation code and pre-trained model
 ## Introduction
 In this work, we present
@@ -23,7 +23,7 @@ sequence of neighboring event frames to reconstruct high speed HDR videos. To fa
 <img src="figs/dataset.png" width="500px"/>
 
 ## Dataset
-* You can download our EventHDR dataset at [**[OneDrive]**](https://1drv.ms/f/s!AuA3qjJbfh9FjQa4GvHC_9Fn9UQm?e=jODI9N)
+* You can download our EventHDR dataset at [**OneDrive**](https://1drv.ms/f/s!AuA3qjJbfh9FjQa4GvHC_9Fn9UQm?e=jODI9N)
 * Both the training and testing data are stored in ```hdf5``` format, you can use ```h5py``` tool to read the data. To create a pytorch dataset, you can refer to [**DynamicH5Dataset**](https://github.com/TimoStoff/event_cnn_minimal/blob/master/data_loader/dataset.py)
 * We build our dataset based on the data structure of [**events_contrast_maximization**](https://github.com/TimoStoff/events_contrast_maximization/tree/master), and the structure tree is shown below
 ```
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 BASICSR_EXT=True python setup.py develop
 ```
 * Download our ```hdf5``` foramt evaluation data from [**OneDrive**](https://1drv.ms/f/s!AuA3qjJbfh9FjQa4GvHC_9Fn9UQm?e=jODI9N), and put it in folder ```./eval_data```
-* Download the pre-trained model at [**Google Drive**](https://drive.google.com/file/d/1Yp_bGnfA0StoofP9fxsqcPEv4JnKKzll/view?usp=sharing), and move it to ```./pretrained```
+* Download the pre-trained model at [**pretrained**](https://1drv.ms/u/s!AuA3qjJbfh9FjVhdCwPFPSiy-r94?e=VpdPU4), and move it to ```./pretrained```
 * Run the following script to reconstruct HDR videos from event streams!
 ```
 bash test.sh
