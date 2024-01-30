@@ -63,7 +63,7 @@ EventHDR Dataset Structure Tree
 |   
 ```
 ## Usage
-* Crate ```conda``` environment and download our repository
+* Create ```conda``` environment and download our repository
 ```
 conda create -n eventhdr python=3.6
 conda activate eventhdr
@@ -87,6 +87,14 @@ python mk_video.py
 ```
 Then, you will obtain results like
 <img src="figs/preview.gif"/>
+## Results
+The quantitative results are shown below
+| Method  | PSNR | SSIM | LPIPS | TC       |
+| ------- | ---- | ---- | ----- | -------- |
+| HF | 10.99 | 0.2708 | 0.4434 | 1.2051 |
+| E2VID | 12.78 | 0.5753 | 0.3541 | 1.0305 |
+| EF | 13.23 | 0.5914 | 0.3030 | 0.9729 |
+| Ours | 15.31 | 0.7084 | 0.2424 | 0.5198 |
 ## Citation
 If you find this work useful for your research, please cite: 
 ```
