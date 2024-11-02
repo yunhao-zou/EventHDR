@@ -1,7 +1,8 @@
 # EventHDR
- This is the implementation and dataset for [Learning To Reconstruct High Speed and High Dynamic Range Videos From Events](https://openaccess.thecvf.com/content/CVPR2021/papers/Zou_Learning_To_Reconstruct_High_Speed_and_High_Dynamic_Range_Videos_CVPR_2021_paper.pdf), CVPR 2021, by Yunhao Zou, Yinqiang Zheng, Tsuyoshi Takatani and Ying Fu.
+ This is the implementation and dataset for [Learning To Reconstruct High Speed and High Dynamic Range Videos From Events](https://openaccess.thecvf.com/content/CVPR2021/papers/Zou_Learning_To_Reconstruct_High_Speed_and_High_Dynamic_Range_Videos_CVPR_2021_paper.pdf), CVPR 2021, and its journal extension [EventHDR: From Event to High-Speed HDR Videos and Beyond](https://ieeexplore.ieee.org/abstract/document/10713104), TPAMI 2024
 
 ## News
+* 2024/10/09: The [**journal extension**](https://ieeexplore.ieee.org/abstract/document/10713104) of EventHDR has been accepted by TPAMI 2024
 * 2023/09/19: Both the training and testing datasets are avalable at [**OneDrive**](https://1drv.ms/f/s!AuA3qjJbfh9FjQa4GvHC_9Fn9UQm?e=jODI9N)
 * 2023/09/27: Release the evaluation code and pre-trained model
 ## Introduction
@@ -104,6 +105,17 @@ If you find this work useful for your research, please cite:
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={2024--2033},
   year={2021}
+}
+```
+```
+@article{zou2024eventhdr,
+  title={EventHDR: From Event to High-Speed HDR Videos and Beyond},
+  author={Zou, Yunhao and Fu, Ying and Takatani, Tsuyoshi and Zheng, Yinqiang},
+  journal={IEEE Trans. Pattern Anal. Mach. Intell.},
+  note={{E}arly Access},
+  year={2024},
+  pages={1--18},
+  publisher={IEEE}
 }
 ```
 ## contact
